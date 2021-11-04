@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { faBars, faTimes, faMapMarkerAlt, faEnvelope, faMobileAlt, faSpinner} from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+
+
+library.add(faBars, faTimes, faMapMarkerAlt, faEnvelope, faMobileAlt, faSpinner, faFacebookF, faInstagram)
+
 
 ReactDOM.render(
   <React.StrictMode>
