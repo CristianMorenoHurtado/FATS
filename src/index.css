@@ -1003,7 +1003,7 @@ FOOTER
   }
   
   .header__title{
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .header__btn{
@@ -1017,6 +1017,10 @@ FOOTER
     align-items: center;
   }
 
+  .about__para{
+    width: 175%;
+  }
+
   .deadlift--img{
     padding-top: 36px;
   }
@@ -1024,6 +1028,7 @@ FOOTER
   .about__reverse{
     display: flex;
     flex-direction: column-reverse;
+    padding-bottom: 0;
   }
 
   .plans__title{
@@ -1045,5 +1050,9 @@ FOOTER
   
   .schedule__row{
     display: none;
+  }
+
+  .footer__logo{
+    height: 72px;
   }
 }
