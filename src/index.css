@@ -1017,6 +1017,11 @@ FOOTER
     align-items: center;
   }
 
+  .about__title{
+    width: 175%;
+    font-size: 30px;
+  }
+
   .about__para{
     width: 175%;
   }
