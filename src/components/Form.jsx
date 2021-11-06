@@ -6,7 +6,7 @@ const Form = () => {
         <section id="form">
             <div className="container">
                 <div className="row">
-                    <form id="contact--form" onSubmit=''>
+                    <form id="contact--form" >
                         <h2 className="form__title">Questions?</h2>
                         <div className="form__item">
                             <label className="form__item--label" required>Name</label>
