@@ -196,7 +196,8 @@ NAVIGATION
 
 .menu--open {
   max-height: 100vh;
-  overflow: hidden !important;
+  overflow: hidden;
+  position: relative;
 }
 
 .menu--open .menu__backdrop {
