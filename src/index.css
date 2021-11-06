@@ -12,12 +12,9 @@
   min-height: 100vh;
 }
 
-body, html{
-  overflow-x: hidden;
-}
-
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -199,7 +196,7 @@ NAVIGATION
 
 .menu--open {
   max-height: 100vh;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .menu--open .menu__backdrop {
@@ -954,7 +951,7 @@ FOOTER
   .gym__hours--exception{
     opacity: 0;
     position: absolute;
-
+    visibility: hidden;
   }
 
   .gym__hours{
