@@ -188,6 +188,7 @@ NAVIGATION
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   visibility: hidden;
   transition: all 300ms ease;
   opacity: 0;
@@ -834,10 +835,11 @@ FOOTER
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .footer__list--item{
-  padding: 20px 40px;
+  padding: 20px 30px;
 }
 
 .footer__copyright{

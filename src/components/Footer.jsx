@@ -23,18 +23,21 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li className="footer__list--item">
-                                <a href="https://www.facebook.com/Forged-Athlete-Training-Systems-101729081943331" className="footer__icon"  target="_blank" rel="noreferrer">
-                                    <FontAwesomeIcon className="footer__icon--hover" icon={['fab', 'facebook-f'] }/>
+                                <a href="https://www.facebook.com/Forged-Athlete-Training-Systems-101729081943331" className="footer__icon" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon className="footer__icon--hover" icon={['fab', 'facebook-f']} />
                                 </a>
                             </li>
                             <li className="footer__list--item">
-                                <a href="https://www.instagram.com/forged.athlete/?hl=en" className="footer__icon"  target="_blank" rel="noreferrer">
-                                    <FontAwesomeIcon className="footer__icon--hover" icon={['fab', 'instagram'] }/> 
-                                </a>  
+                                <a href="https://www.instagram.com/forged.athlete/?hl=en" className="footer__icon" target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon className="footer__icon--hover" icon={['fab', 'instagram']} />
+                                </a>
                             </li>
                         </ul>
                         <span className="footer__copyright">
-                            Copyright &copy; Forged Athlete Training Systems | Website Designed by <a href="https://cristianmorenohurtado.github.io/" className="footer__cris" target="_blank" rel="noreferrer">Cristian Moreno</a>
+                            Copyright &copy; Forged Athlete Training Systems
+                        </span>
+                        <span className="footer__copyright">
+                            Website Designed by <a href="https://cristianmorenohurtado.github.io/" className="footer__cris" target="_blank" rel="noreferrer">Cristian Moreno</a>
                         </span>
                     </div>
                 </div>
